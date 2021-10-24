@@ -1,0 +1,15 @@
+1.克隆分支的代码
+  1.方法一：直接克隆分支的代码 比如：dev分支
+   
+    git clone -b dev git@github.com:happyliyingzhi/testgit.git
+    git clone -b <指定分支名> <远程仓库地址>  //例如  git clone -b dev 远程仓库地址
+  2. 方法二：直接克隆然后切换分支
+     git clone  git@github.com:happyliyingzhi/testgit.git (克隆是主分支main)
+     git checkout -b dev origin/dev   (切换到分支dev) (git checkout -b 本地分支名 origin/远程分支名)
+     git pull
+2.克隆分支创建本地分支然后推送到远程
+
+   git checkout -b lyz (本地创建分支lyz，并切换到lyz分支上面) 
+   git add . (git add index.html  git add 文件名)
+   git commit -m "提交内容"
+   git push origin lyz (git push origin 分支名)
