@@ -15,4 +15,6 @@
 3.本地切换分支连接远程分支
  git checkout -b dev origin/dev   (切换到分支dev) (git checkout -b 本地分支名 origin/远程分支名)
   本地创建了分支并且拉取了远程指定的分支
+4.github密钥
+ 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
 
